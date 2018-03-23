@@ -19,3 +19,13 @@ indexOfmax
 indexOfmin <- which.min(b)
 indexOfmin
 vec <- c(3,2,5,7,2,10)
+read.table(file.choose())
+read.csv(file.choose(), header = T)
+dummy1 <- read.csv(file.choose(), header = T)
+str(dummy1)
+barplot(dummy1$send)
+barplot(dummy1$text)
+barplot(dummy1$checkbox)
+typeof(dummy1)
+dataf <- data.frame(dummy1$send, dummy1$signature, dummy1$text, dummy1$checkbox)
+typeof(dataf)
