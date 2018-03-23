@@ -18,3 +18,4 @@ indexOfmax <- which.max(b)
 indexOfmax
 indexOfmin <- which.min(b)
 indexOfmin
+vec <- c(3,2,5,7,2,10)
