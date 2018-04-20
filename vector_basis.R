@@ -8,6 +8,7 @@ a>4
 a>1
 a[a>1]
 2+3+4+5
+which[a=2]
 which(a[a>4])
 which(a>4)
 which(a>2)
