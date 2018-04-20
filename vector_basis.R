@@ -29,3 +29,4 @@ barplot(dummy1$checkbox)
 typeof(dummy1)
 dataf <- data.frame(dummy1$send, dummy1$signature, dummy1$text, dummy1$checkbox)
 typeof(dataf)
+
